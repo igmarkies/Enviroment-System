@@ -1,0 +1,11 @@
+Hoofdmodule
+Gebruikersnaam: rock
+Wachtwoord: rock
+
+MySQL
+Gebruikersnaa: HPTuser
+wachtwoord: Pr3Ssure#h19h
+
+Wordpress
+gebruikersnaam: HPT-admin
+Wachtwoord: W0rD#49i^HPT

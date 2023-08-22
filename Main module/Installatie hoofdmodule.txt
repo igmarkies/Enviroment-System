@@ -1,0 +1,22 @@
+Voor de installatie van ubuntu 20.04 server:
+Download de image van de volgende link:
+https://wiki.radxa.com/Rock4/downloads
+Ga naar de tab Rock Pi 4C+ en download de ubuntu image via een imager (de raspberry Pi imager werkt hiervoor)
+
+
+Voordat wordpress geïnstalleerd kan worden moeten de volgende packages worden geinstalleerd:
+1. Update en upgrade het besturingssysteem (sudo apt-get update -y && sudo apt-get upgrade -y)
+2. Install UFW package (sudo apt-get install ufw -y)
+3. Install CURL package (sudo apt-get install curl -y)
+4. Install Crontab package (sudo apt-get install cron -y)
+
+Voor de installatie van wordpress volg de volgende link:
+https://www.youtube.com/watch?v=m6wZ3Ryr0ZQ
+
+Als de SQLite3 database nog gebruikt wordt moet deze nog geinstaleerd worden:
+Sudo apt-get install sqlite3 -y
+
+Zet het bestand 'Main_Module.py' met behulp van Filezilla op de raspberry pi en pas zonodig de directory in de code aan.
+
+Als de software erop staat wordt moeten de IP-adressen van de meetmodules verzameld worden en in de software worden aangpast.
+Verder moet de software in Crontab worden gezet zodat deze om de 10 minuten wordt gestart.
